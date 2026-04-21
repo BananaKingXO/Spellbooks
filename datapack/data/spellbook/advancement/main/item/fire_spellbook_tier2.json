@@ -1,0 +1,24 @@
+{
+  "parent": "spellbook:main/item/root",
+  "criteria": {
+    "click": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "spellbook:item": "fireball_spellbook_tier_2"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "spellbook:firetier2/fire_tier_2_use"
+  }
+}

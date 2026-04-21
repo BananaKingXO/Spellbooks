@@ -1,0 +1,24 @@
+{
+  "parent": "spellbook:main/item/root",
+  "criteria": {
+    "click": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "spellbook:item": "vine_spellbook"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "spellbook:vine/vine_use" 
+  }
+}

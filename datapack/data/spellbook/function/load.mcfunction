@@ -1,0 +1,21 @@
+scoreboard objectives add MotionX dummy
+scoreboard objectives add MotionY dummy
+scoreboard objectives add MotionZ dummy
+scoreboard objectives add fireballcooldown dummy
+scoreboard objectives add fireswitchcooldown dummy
+scoreboard objectives add lightningcooldown dummy
+scoreboard objectives add withercooldown dummy
+scoreboard objectives add vinecooldown dummy
+scoreboard objectives add fireslashcooldown dummy
+scoreboard objectives add firespellvalue dummy
+scoreboard objectives add lightningspellvalue dummy
+scoreboard objectives add lightningswitchcooldown dummy
+scoreboard objectives add flamevolleycooldown dummy
+scoreboard objectives add flamevolleyuser dummy
+scoreboard objectives add chargecooldown dummy
+scoreboard objectives add chargeuser dummy
+scoreboard objectives add shockcooldown dummy
+scoreboard objectives add shockvictim dummy
+scoreboard objectives add firespellvalue2 dummy
+scoreboard objectives add spellbook.misc dummy
+forceload add 0 0 0 0 

@@ -1,0 +1,14 @@
+{
+    "pack": {
+        "id": "Spellbook DP",
+        "color": "#59ff44",
+        "min_format": 94.1,
+        "max_format": 94.1,
+        "description": [
+            {
+                "text": "Spellbooks that are infused with magical abilities",
+                "color": "#ffffff"
+            }
+        ]
+    }
+}

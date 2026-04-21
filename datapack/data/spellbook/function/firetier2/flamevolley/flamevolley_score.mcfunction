@@ -1,0 +1,9 @@
+scoreboard players add @s flamevolleyuser 1
+execute as @s[scores={flamevolleyuser=4}] run function spellbook:flamevolley/flamevolley
+execute as @s[scores={flamevolleyuser=8}] run function spellbook:flamevolley/flamevolley
+execute as @s[scores={flamevolleyuser=12}] run function spellbook:flamevolley/flamevolley
+execute as @s[scores={flamevolleyuser=16}] run function spellbook:flamevolley/flamevolley
+execute as @s[scores={flamevolleyuser=20}] run function spellbook:flamevolley/flamevolley
+execute as @s[scores={flamevolleyuser=24}] run function spellbook:flamevolley/flamevolley
+execute as @s[scores={flamevolleyuser=28}] run function spellbook:flamevolley/flamevolley
+execute as @s[scores={flamevolleyuser=28}] run function spellbook:flamevolley/flamevolley_end
