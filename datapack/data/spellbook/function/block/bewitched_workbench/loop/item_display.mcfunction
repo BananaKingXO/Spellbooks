@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ minecraft:fletching_table run function spellbook:block/bewitched_workbench/drop

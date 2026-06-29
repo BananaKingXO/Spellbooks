@@ -1,0 +1,26 @@
+{
+  "parent": "spellbook:main/item/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": ["minecraft:fletching_table"],
+              "predicates": {
+                "minecraft:custom_data": {
+                  "spellbooks:item": "bewitched_workbench"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "spellbook:block/bewitched_workbench/place"
+  }
+}

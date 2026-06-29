@@ -18,4 +18,8 @@ scoreboard objectives add shockcooldown dummy
 scoreboard objectives add shockvictim dummy
 scoreboard objectives add firespellvalue2 dummy
 scoreboard objectives add spellbook.misc dummy
+scoreboard objectives add spellbook.bewitched_workbench.count dummy
+
+function spellbook:util/stringlib/zprivate/load
+
 forceload add 0 0 0 0 

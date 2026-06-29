@@ -8,6 +8,7 @@ scoreboard players add @a vinecooldown 1
 scoreboard players add @a fireslashcooldown 1
 scoreboard players add @a chargecooldown 1
 scoreboard players add @a shockcooldown 1
+
 execute as @a[tag=flamevolleyuser] run function spellbook:flamevolley/flamevolley_score
 execute as @a[tag=flamevolleyuser2] run function spellbook:firetier2/flamevolley/flamevolley_score
 execute as @a[tag=chargeuser] run function spellbook:charge/charge_score
@@ -18,3 +19,6 @@ scoreboard players add @a spellbook.misc 1
 
 execute if score @s spellbook.misc matches 2 run function spellbook:crafting/check
 execute as @a[scores={spellbook.misc=3..}] run scoreboard players reset @a spellbook.misc
+
+execute as @e[type=item_display,tag=spellbook.bewitched_workbench_display] at @s run function spellbook:block/bewitched_workbench/loop/item_display
+execute as @e[type=marker,tag=spellbook.bewitched_workbench] at @s run function spellbook:block/bewitched_workbench/loop/marker

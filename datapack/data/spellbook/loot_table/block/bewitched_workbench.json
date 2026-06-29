@@ -1,0 +1,26 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:fletching_table",
+                    "conditions": [],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "Bewitched Workbench",
+                                "minecraft:item_model": "spellbook:bewitched_workbench",
+                                "minecraft:custom_data": {
+                                    "spellbooks:item": "bewitched_workbench"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
