@@ -1,10 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": [
-    "minecraft:plains",
-    "minecraft:forest",
-    "minecraft:meadow"
-  ],
+  "biomes": "#spellbook:has_structure/inferno_spire",
   "step": "surface_structures",
   "terrain_adaptation": "none",
   "spawn_overrides": {},

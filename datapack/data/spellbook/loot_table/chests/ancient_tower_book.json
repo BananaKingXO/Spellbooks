@@ -137,7 +137,7 @@
       "entries": [
         {
             "type": "minecraft:loot_table",
-            "value": "spellbook:item/books/lightning_book",
+            "value": "spellbook:item/books/lightning_elemental_spellbook",
             "weight": 1
 
         }

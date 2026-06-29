@@ -1,0 +1,6 @@
+execute unless predicate spellbook:is_sneaking as @s[scores={spellbook.fireball.cooldown=400..,spellbook.fire_spell.value=1}] run function spellbook:item/fire_elemental_spellbook/abilities/fireball/fireball
+execute unless predicate spellbook:is_sneaking as @s[scores={spellbook.flame_volley.cooldown=160..,spellbook.fire_spell.value=3}] run function spellbook:item/fire_elemental_spellbook/abilities/flame_volley/use
+execute if predicate spellbook:is_sneaking as @s[scores={spellbook.fire_switch.cooldown=5..}] run function spellbook:item/fire_elemental_spellbook/spell_switch/tier_1
+execute unless predicate spellbook:is_sneaking as @s[scores={spellbook.fireball.cooldown=..399,spellbook.fire_spell.value=1}] run title @s actionbar {"text":"Spell under Cooldown "}
+execute unless predicate spellbook:is_sneaking as @s[scores={spellbook.flame_volley.cooldown=..159,spellbook.fire_spell.value=3}] run title @s actionbar {"text":"Spell under Cooldown "}
+advancement revoke @s only spellbook:main/item/fireball_use_spellbook

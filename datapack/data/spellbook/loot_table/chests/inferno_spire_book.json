@@ -89,7 +89,7 @@
       "entries": [
         {
             "type": "minecraft:loot_table",
-            "value": "spellbook:item/books/fireball_book",
+            "value": "spellbook:item/books/fire_elemental_spellbook",
             "weight": 1
 
         }

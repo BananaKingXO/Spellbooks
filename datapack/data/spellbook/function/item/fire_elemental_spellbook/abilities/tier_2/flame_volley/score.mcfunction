@@ -1,0 +1,9 @@
+scoreboard players add @s spellbook.flame_volley.user 1
+execute as @s[scores={spellbook.flame_volley.user=4}] run function spellbook:item/fire_elemental_spellbook/abilities/tier_2/flame_volley/flame_volley
+execute as @s[scores={spellbook.flame_volley.user=8}] run function spellbook:item/fire_elemental_spellbook/abilities/tier_2/flame_volley/flame_volley
+execute as @s[scores={spellbook.flame_volley.user=12}] run function spellbook:item/fire_elemental_spellbook/abilities/tier_2/flame_volley/flame_volley
+execute as @s[scores={spellbook.flame_volley.user=16}] run function spellbook:item/fire_elemental_spellbook/abilities/tier_2/flame_volley/flame_volley
+execute as @s[scores={spellbook.flame_volley.user=20}] run function spellbook:item/fire_elemental_spellbook/abilities/tier_2/flame_volley/flame_volley
+execute as @s[scores={spellbook.flame_volley.user=24}] run function spellbook:item/fire_elemental_spellbook/abilities/tier_2/flame_volley/flame_volley
+execute as @s[scores={spellbook.flame_volley.user=28}] run function spellbook:item/fire_elemental_spellbook/abilities/tier_2/flame_volley/flame_volley
+execute as @s[scores={spellbook.flame_volley.user=28}] run function spellbook:item/fire_elemental_spellbook/abilities/tier_2/flame_volley/end
